@@ -1,3 +1,6 @@
+#https://practice.geeksforgeeks.org/problems/rotate-and-delete/0
+
+
 #Take no of test cases.
 t = int(input())
 

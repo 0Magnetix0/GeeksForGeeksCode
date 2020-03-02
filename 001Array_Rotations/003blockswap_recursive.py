@@ -4,9 +4,8 @@ def swap():
 def block_swap(array, k):
     i = k
     j = len(array) - k
-    while i != j:
-        if i < j:
-            swap(array[])
+    if i < j:
+        swap(array[])
 
 print("Block swap recursive version")
 print("Enter the no of element's in the array :: ", end = "")

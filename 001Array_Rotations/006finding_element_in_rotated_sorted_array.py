@@ -34,6 +34,7 @@ def pivot(arr,low,high):
             high = mid - 1
 
         #If the arr[mid] is greater than arr[low] then the largest number is on the left side of the mid element.
+        else:
             low = mid + 1
 
 def find_key(arr,key,p):

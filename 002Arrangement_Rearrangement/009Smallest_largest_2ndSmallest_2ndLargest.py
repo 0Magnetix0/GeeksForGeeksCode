@@ -16,3 +16,4 @@ for _ in range(int(input())):
     for i in range(len(l)):
         print(l[i], end = " ")
     print()
+#https://practice.geeksforgeeks.org/problems/rearrange-the-array/0

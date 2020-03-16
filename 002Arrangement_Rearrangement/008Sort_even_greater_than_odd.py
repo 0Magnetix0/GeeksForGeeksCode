@@ -16,3 +16,5 @@ for _ in range(int(input())):
     for i in range(len(l)):
         print(l[i], end = " ")
     print()
+
+#https://practice.geeksforgeeks.org/problems/rearrange-array-such-that-even-positioned-are-greater-than-odd/0

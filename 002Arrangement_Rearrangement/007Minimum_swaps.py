@@ -23,4 +23,4 @@ for _ in range(int(input())):
     k = int(input())
     print(min_steps(l,n,k))
     
-    
+#https://practice.geeksforgeeks.org/problems/minimum-swaps-required-to-bring-all-elements-less-than-or-equal-to-k-together/0    

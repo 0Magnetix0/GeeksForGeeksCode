@@ -4,7 +4,7 @@ def merge(A,p,q,r):
 
     l1 = [A[x+p] for x in range(n)]
     l1.append(1000000)
-    l2 = [A[x+q] for x in range(m)]
+    l2 = [A[x+q+1] for x in range(m-1)]
     l2.append(1000000)
     
     b = 0

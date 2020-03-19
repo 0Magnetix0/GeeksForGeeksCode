@@ -6,6 +6,13 @@ def mindistance(A,low,high):
         mid //= 2
         left = mindistance(A,low,mid)
         right = mindistance(A,mid+1,high)
-        c = [0]*(right-left)
-        for i in range(
-        
+        d = min(left,right)
+        c = []
+        for i in range(d):
+            c.append(A[mid-i-1])
+        c.append(A[mid])
+        for i in range(d):
+            c.append(A[mid+i+1])
+        c.sort()
+
+

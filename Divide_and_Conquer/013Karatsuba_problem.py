@@ -11,7 +11,7 @@ def power(a,b):
 def karatsubaMul(a, b):
     dig_a = count_digits(a)
     dig_b = count_digits(b)
-    dig = min(dig_a,dig_b)
+    dig = max(dig_a,dig_b)
     ref = dig//2
     if dig <= 1:
         return a*b
